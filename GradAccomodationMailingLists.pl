@@ -16,7 +16,7 @@ use Switch;
 
 #my $csv_text = get 'https://cweb4.clare.cam.ac.uk/rooms/hens-owng6732sdsalsdjhbewq/gradinfo.csv' or die "Couldn't get csv";
 #my $text = encode("UTF-16", $csv_text);
-`curl https://cweb4.clare.cam.ac.uk/rooms/hens-owng6732sdsalsdjhbewq/gradinfo.csv -o gradinfo.csv`;
+`curl https://cweb1.clare.cam.ac.uk/rooms/hens-owng6732sdsalsdjhbewq/gradinfo.csv -o gradinfo.csv`;
 
 my $csv = Text::CSV_XS->new;
 my %hashref;
